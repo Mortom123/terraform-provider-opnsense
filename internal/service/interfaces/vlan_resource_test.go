@@ -75,5 +75,5 @@ resource "opnsense_interfaces_vlan" "test" {
   parent      = %[4]q
   device      = %[5]q
 }
-`, tag, description, priority, parent)
+`, tag, description, priority, parent, device)
 }
